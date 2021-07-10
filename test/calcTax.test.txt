@@ -1,0 +1,5 @@
+const calcTax = require("../Basket");
+
+test("With a pre tax total ammount of 100$ the function should return 114", () => {
+  expect(calcTax(100)).toBe(114);
+});
